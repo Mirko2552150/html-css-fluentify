@@ -110,6 +110,7 @@ header {
     display: inline-block;
     position: absolute;
     top: 15px;
+    float: left;
 }
 /* NB FINE RIGA GRIGIA NB */
 
@@ -143,6 +144,7 @@ header {
     font-size: 12px;
     color: white;
 }
+
 a:link {
     color: white;
 }
