@@ -10,7 +10,7 @@
     display: table;
     clear: both;
 }
-
+/* fullwidthnon avendo misure occupa tutto lo spazio disponibile */
 .container-fullwidth {
     background-color: #0d325a;
 }
@@ -60,7 +60,26 @@ header {
     width: 33.33%;
     float: left;
     /* da cancellare */
-    height: 200px;
-    background-color: purple;
+    height: 400px;
     border: 1px solid black;
+}
+/* posizionamento immagini NB SISTEMARE */
+.cards img {
+    height: 152px;
+    margin-top: 20px;
+    position: relative;
+    left: 100px;
+
+}
+
+.testo h6 {
+    text-align: center;
+    color: green;
+    font-size: 23px;
+}
+
+.testo br {
+    opacity: .3;
+    width: 32px;
+    border-top: 2px solid;
 }
