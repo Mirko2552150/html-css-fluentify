@@ -1,0 +1,66 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container-fullwidth {
+    background-color: #0d325a;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+header {
+    height: 70px;
+    background-color: orange;
+}
+
+.banner {
+    height: 500px;
+}
+
+/* .banner {
+    background-image:
+} */
+
+.grigio {
+    background-color: gray;
+}
+
+.riga-grigia {
+    height: 100px;
+    background-color: lightgray;
+}
+
+.bianco {
+    background-color: white;
+}
+
+.riga-bianca {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border bottom: 2px solid black;
+}
+
+.cards {
+    /* spazio per img */
+    width: 33.33%;
+    float: left;
+    /* da cancellare */
+    height: 200px;
+    background-color: purple;
+    border: 1px solid black;
+}
